@@ -23,15 +23,6 @@ body {
 .main {
     background-color: #0f172a;
 }
-
-.card {
-    background: #020617;
-    padding: 30px;
-    border-radius: 18px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.35);
-    margin-top: 20px;
-}
-
 .title {
     text-align: center;
     font-size: 36px;
@@ -146,8 +137,6 @@ if st.button("🔍 Prediksi"):
 
     st.markdown(f"""
         <div class="result-box">📌 Logistic Regression : <b>{pred_logreg}</b></div>
-        <div class="result-box">📌 Support Vector Machine : <b>{pred_svm}</b></div>
-        <div class="result-box">📌 Naive Bayes : <b>{pred_nb}</b></div>
         <div class="result-box">📏 IMT : <b>{imt:.2f}</b> ({status})</div>
         <div class="result-box">⚖️ Berat Ideal : <b>{bb_min} – {bb_max} kg</b></div>
         <div class="result-box">{rekomendasi}</div>
