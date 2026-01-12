@@ -80,7 +80,7 @@ le = joblib.load("label_encoder.pkl")
 # =============================
 # HEADER
 # =============================
-st.markdown('<div class="title">⚖️ Prediksi Berat Badan</div>', unsafe_allow_html=True)
+st.markdown('<div class="title">Prediksi Berat Badan</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Machine Learning Classification</div>', unsafe_allow_html=True)
 
 # =============================
